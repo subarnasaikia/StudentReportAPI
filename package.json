@@ -1,0 +1,26 @@
+{
+  "name": "studentreportapi",
+  "version": "1.0.0",
+  "description": "A RESTful API built with Node.js and Express.js to manage student academic data including profiles, marks, and report generation. Designed for use by educational institutions, this API enables CRUD operations for students, subjects, and performance reports. Easily integrable with front-end apps or school portals.",
+  "keywords": [
+    "RESTful_API",
+    "Nodejs",
+    "Expressjs",
+    "StudentReportAPI"
+  ],
+  "homepage": "https://github.com/subarnasaikia/StudentReportAPI#readme",
+  "bugs": {
+    "url": "https://github.com/subarnasaikia/StudentReportAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subarnasaikia/StudentReportAPI.git"
+  },
+  "license": "MIT",
+  "author": "Subarna Saikia",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
