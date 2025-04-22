@@ -107,4 +107,19 @@ const registerUser = asyncHandler(async (req, res) => {
         );
 });
 
-export { registerUser };
+const loginUser = asyncHandler(async (req, res) => {
+    // Step 1: fetching the data
+    // Step 2: validating the data
+    // Step 3; Check the user and email exists or not.
+    // Step 4: check the password is correct or not. (if user exists)
+    // Step 5: if password is correct, generate the access and refresh token.
+    // Step 6: send the access and refresh token to the user.
+    // Step 7: send the user details to the user.
+
+    // fetching the data from body.
+    const { username, email, password } = req.body;
+});
+
+const logoutUser = asyncHandler(async (req, res) => {});
+
+export { registerUser, loginUser, logoutUser };
